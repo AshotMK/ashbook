@@ -1,0 +1,80 @@
+body {
+  background-image: url('img/bg.svg');
+  background-repeat: no-repeat;"
+}
+
+.logp{
+  font-size: 2em;
+}
+
+#logbt{
+  height: 50px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+input[type="text"]{
+  width: 80%;
+  height: 50px;
+}
+
+input[type="password"]{
+  width: 80%;
+  height: 50px;
+}
+
+.card{
+  margin-top: 50%;
+  backdrop-filter: blur(10px);
+  height: 450px;
+  width: 400px;
+    border-radius: 15%;
+}
+
+.profile-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#image-preview {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+#image-input {
+  display: none;
+}
+
+#biob{
+    background-color: #006d77;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+#change-button {
+  background-color: #006d77;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: between;
+  align-items: center;
+}
+
+#uimg{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #dfdfdf;
+}
