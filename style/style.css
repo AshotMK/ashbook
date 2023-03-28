@@ -27,7 +27,7 @@ input[type="password"]{
   margin-top: 50%;
   backdrop-filter: blur(10px);
   height: 450px;
-  width: 400px;
+  width: 350px;
     border-radius: 15%;
 }
 
